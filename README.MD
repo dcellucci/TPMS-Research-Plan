@@ -1,10 +1,8 @@
 # Cellular Solids Notes
 
-Daniel Cellucci
+Daniel Cellucci - January 2016 (and onward)
 
-## Abstract
-
-My thesis defense is in May. Paper #3 of my thesis will be the culmination of work I've done on alternative approaches to the design and construction of digital cellular solids. This document is a set of notes describing that work and where I think it fits. My understanding is, at best, incomplete, so that is why I am sending this to you, dear reader, for feedback and thoughts.
+My thesis defense is in May. Paper #3 of my thesis will be the culmination of work I've done on alternative approaches to the design and construction of digital cellular solids. This repository is a set of notes, code, and media describing that work and where I think it fits. My understanding is, at best, incomplete, so that is why I am sending this to you, dear reader, for feedback and thoughts.
 
 ## Introduction
 

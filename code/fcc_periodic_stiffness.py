@@ -1,5 +1,5 @@
 # See the README for more info.
-import pfea
+import pfea.solver as pfea
 import numpy as np
 
 Be = np.zeros((9,6))
@@ -151,7 +151,7 @@ bcc_frames = [[]]
 uc_dims = 0.01 #m
 Emat = 11e9
 numat = 0.3
-rel_den = 0.01
+rel_den = 0.001
 
 Be = Be*uc_dims
 nodes = uc_dims*np.array(nodes)
@@ -160,7 +160,7 @@ frame_names = ["FCC","Octet","D-Schwarz","BCC"]
 frame_list = [fcc_frames,octet_frames,d_sch_frames]
 frame_num = [12.0,24.0,12.0,12.0]
 
-for framedex in [1]:
+for framedex in [2]:
 	frames = frame_list[framedex]
 	lb = uc_dims/np.sqrt(2)
 
